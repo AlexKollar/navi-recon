@@ -1,0 +1,38 @@
+{
+  "description": "Port scanning and service fingerprinting for a cybersecurity student's lab: TCP connect scans with a banner read and a defender's explainer on every open port. Lab and owned targets only \u2014 public addresses are refused unless you assert ownership with --i-own-this.",
+  "entry": "root.py",
+  "files": [
+    "root.py",
+    "app_recon/__init__.py",
+    "app_recon/core.py",
+    "app_recon/scan.py",
+    "app_recon/services.py"
+  ],
+  "format": "navi-chip/1",
+  "name": "Navi Recon",
+  "output": "Navi Recon: scoped port scans with a defender's explainer on every open port \u2014 run recon --test to watch it prove itself on loopback.",
+  "version": "1.0.0",
+  "glyph": "image",
+  "icon": [
+    "....................",
+    ".......######.......",
+    ".....###.oo.###.....",
+    "....##...oo...##....",
+    "...#.....oo...###...",
+    "..##...oooooo.####..",
+    "..#...o..oo..#...#..",
+    ".##..o...oo.#.o..##.",
+    ".#...o...oo#..o...#.",
+    ".#ooooooo##ooooooo#.",
+    ".#ooooooo##ooooooo#.",
+    ".#...o...oo...o...#.",
+    ".##..o...oo...o..##.",
+    "..#...o..oo..o...#..",
+    "..##...oooooo...##..",
+    "...#.....oo.....#...",
+    "....##...oo...##....",
+    ".....###.oo.###.....",
+    ".......######.......",
+    "...................."
+  ]
+}

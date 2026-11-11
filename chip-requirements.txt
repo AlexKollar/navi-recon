@@ -1,0 +1,5 @@
+# Navi Recon runs on the Python standard library alone — socket,
+# ipaddress, and concurrent.futures do the work, and the core needs
+# nothing installed. There are no optional extras: a scanner that
+# needs a download before it runs is a scanner that doesn't run in
+# a locked-down lab.
